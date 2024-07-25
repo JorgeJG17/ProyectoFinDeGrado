@@ -1,0 +1,15 @@
+﻿<Window x:Class="ProyectoFinDeGrado.LibrosElegir"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinDeGrado"
+        mc:Ignorable="d"
+        Title="LibrosElegir" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListBox Name="listaLibros" HorizontalAlignment="Left" Height="399" Margin="19,10,0,0" VerticalAlignment="Top" Width="385"/>
+        <Button Content="Quiero intercambiarlo por este" HorizontalAlignment="Left" Height="59" Margin="507,123,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click"/>
+        <Button Content="No quiero ninguno" HorizontalAlignment="Left" Height="59" Margin="507,218,0,0" VerticalAlignment="Top" Width="199"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="ProyectoFinDeGrado.Iniciar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinDeGrado"
+        mc:Ignorable="d"
+        Title="Iniciar" Height="350" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Usuario:" HorizontalAlignment="Left" Margin="207,98,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="cuadroUsuario" HorizontalAlignment="Left" Height="23" Margin="265,101,0,0" TextWrapping="Wrap" Text="usuario" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Contraseña:" HorizontalAlignment="Left" Margin="188,137,0,0" VerticalAlignment="Top" Height="27"/>
+        <TextBox Name="cuadroContrasena" HorizontalAlignment="Left" Height="23" Margin="265,141,0,0" TextWrapping="Wrap" Text="contraseña" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Entrar" HorizontalAlignment="Left" Height="21" Margin="256,176,0,0" VerticalAlignment="Top" Width="66" Click="Button_Click_1"/>
+        <Button Content="Registrarse" HorizontalAlignment="Left" Height="21" Margin="256,209,0,0" VerticalAlignment="Top" Width="66" Click="Button_Click"/>
+
+    </Grid>
+</Window>
